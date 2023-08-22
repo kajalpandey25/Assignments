@@ -1,0 +1,17 @@
+/* Universal Selector  */
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+
+}
+
+/* Authontication-container which takes components Signup and Login  */
+body {
+  background-color: azure;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}

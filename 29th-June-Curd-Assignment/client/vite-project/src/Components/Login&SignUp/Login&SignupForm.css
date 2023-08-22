@@ -1,0 +1,56 @@
+/* SignUp container  */
+.container {
+    border: 2px solid gray;
+    border-radius: 12px;
+    width: 500px;
+}
+
+/* SingUp inputs and buttons  */
+.signUp-form,
+.login-form {
+    display: flex;
+    flex-direction: column;
+    padding: 45px 24px;
+}
+
+/* Heading of SignUp page  */
+h1 {
+    text-align: center;
+    margin-bottom: 26px;
+    color: blueviolet;
+    font-size: 40px;
+}
+
+/* Input box desiging  */
+input {
+    padding: 18px 9px;
+    margin: 5px;
+    font-size: 24px;
+    border-radius: 10px;
+    width: 100%;
+    border: 1px solid silver;
+}
+
+/* Button which are common in SignUp and Login  */
+.button {
+    background-color: #7b00ff;
+    color: white;
+    border: none;
+    border-radius: 12px;
+}
+
+/* pre text which are common in SignUp and Login  */
+pre {
+    font-size: 17px;
+    margin: 12px 5px;
+}
+
+/* pre anchor tags which are common in SignUp and Login  */
+pre .btn {
+    color: blueviolet;
+    text-decoration: none;
+}
+
+pre .btn:hover {
+    text-decoration: underline;
+}
