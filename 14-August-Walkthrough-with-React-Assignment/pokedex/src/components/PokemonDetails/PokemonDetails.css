@@ -28,3 +28,15 @@
 .pokemon-types > h1{ 
     display: inline;
 }
+.similar-pokemons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+}
+.pokemon-similer-boxes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
